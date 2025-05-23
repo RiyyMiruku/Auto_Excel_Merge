@@ -7,20 +7,21 @@ A little tool that can combine all excels into sheets in a single excel
 
 ---
 
-## 📦 功能說明
+## 使用說明
 
-- ✅ 選擇資料夾
-- ✅ 自訂要合併的工作表索引（預設為第 1 張 Sheet）
-- ✅ 自訂輸出檔名（預設為資料夾內第一個檔案的名稱 + `_merged.xlsx`）
+- 1.創建一個空資料夾 
+- 2.將需要和合併的excel檔案放入
+- 3.自訂輸出檔名（預設為資料夾內第一個檔案的名稱 + `_merged.xlsx`）
+- 4.選擇合併每個檔案的第幾個sheet
 - ✅ 自動將每個 Excel 的資料儲存在 `Sheet1`、`Sheet2`、... 中
-- ✅ 圖形介面 + 合併進度條
+- ✅ 合併進度條
 - ✅ 支援 `.xlsx` 與 `.xls`
 
 ---
 
-## 🚀 執行方式
+## 執行方式
 
-### 🔧 安裝相依套件（第一次使用前需執行一次）：
+### 安裝相依套件（第一次使用前需執行一次）：
 
 ```bash
 pip install pandas openpyxl xlrd
@@ -47,8 +48,6 @@ pip install pyinstaller
 ```bash
 pyinstaller --noconsole --onefile merge_excel_gui.py
 ```
-
-3. 完成後，`dist/merge_excel_gui.exe` 即為可執行檔案，可直接雙擊開啟使用。
 
 ---
 
