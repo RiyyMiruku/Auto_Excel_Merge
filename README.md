@@ -13,6 +13,7 @@ A simple tool that can combine all Excel files into a single Excel workbook with
 - 2.將需要和合併的excel檔案放入
 - 3.自訂輸出檔名（預設為資料夾內第一個檔案的名稱 + `_merged.xlsx`）
 - 4.選擇合併每個檔案的第幾個sheet
+- *注意*:只會合併純資料，不會將原文件內的圖片、儲存格樣式等轉移到新的合併檔內。
 - ✅ 自動將每個 Excel 的資料儲存在 `Sheet1`、`Sheet2`、... 中
 - ✅ 合併進度條
 - ✅ 支援 `.xlsx` 與 `.xls`
