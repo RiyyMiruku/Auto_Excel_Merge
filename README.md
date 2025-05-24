@@ -1,5 +1,5 @@
 # Auto_Excel_Merge
-A little tool that can combine all excels into sheets in a single excel
+A simple tool that can combine all Excel files into a single Excel workbook with multiple sheets. 
 
 # Excel Sheet 合併工具
 
