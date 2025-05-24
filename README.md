@@ -1,4 +1,4 @@
-# Excel Merge Tool
+# Excel Sheets Merge Tool
 A simple tool that can combine all Excel files into a single Excel workbook with multiple sheets. 
 
 # Excel Sheet 合併工具
